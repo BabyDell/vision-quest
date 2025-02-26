@@ -38,7 +38,7 @@ export default function CreditCardSurvey() {
         >
           <Progress value={0} className="h-2.5 bg-gray-100" />
 
-          <h1 className="text-3xl font-bold text-center mt-8 mb-10 text-emerald-800 font-Playfair">Explore Your Needs And Wants</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-center mt-8 mb-10 text-emerald-800 font-Playfair">Explore Your Needs And Wants</h1>
 
           <div className="space-y-3">
             {options.map((option, index) => (

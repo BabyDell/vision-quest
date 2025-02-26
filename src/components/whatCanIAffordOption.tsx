@@ -7,15 +7,19 @@ import { motion, AnimatePresence } from "framer-motion"
 import { getAffordableCars } from "@/actions/car-actions"
 import { getAffordableHomes } from "@/actions/house-actions"
 import type { FinancialSurveyProps, CarData, HomeData } from "@/types/survery-types"
-import { calculateAffordableAmount } from "@/utils/calculations"
+import { calculateAffordableAmount, calculateRequiredSalary } from "@/utils/calculations"
 import { IncomeStep } from "./survery-steps/IncomeStep"
 import { GoalStep } from "./survery-steps/GoalStep"
 import { ResultsStep } from "./survery-steps/Results"
+import { PurchaseTypeStep } from "./survery-steps/PurchaseTypeStep"
+import { CostStep } from "./survery-steps/CostStep"
+import { SalaryResultStep } from "./survery-steps/SalaryResultStep"
 
 export default function WhatCanIAffordOption({ onBack, surveyType }: FinancialSurveyProps) {
   const [step, setStep] = useState(1)
   const [income, setIncome] = useState("")
   const [goal, setGoal] = useState("")
+  const [cost, setCost] = useState("")
   const [direction, setDirection] = useState(1)
   const [affordableCars, setAffordableCars] = useState<CarData[]>([])
   const [affordableHomes, setAffordableHomes] = useState<HomeData[]>([])
@@ -65,23 +69,42 @@ export default function WhatCanIAffordOption({ onBack, surveyType }: FinancialSu
   }
 
   const renderStep = () => {
-    switch (step) {
-      case 1:
-        return <IncomeStep income={income} setIncome={setIncome} />
-      case 2:
-        return <GoalStep goal={goal} setGoal={setGoal} />
-      case 3:
-        return (
-          <ResultsStep
-            income={income}
-            goal={goal}
-            affordableCars={affordableCars}
-            affordableHomes={affordableHomes}
-            isLoading={isLoading}
-          />
-        )
-      default:
-        return null
+    if (surveyType === "What salary do I need to afford this?") {
+      switch (step) {
+        case 1:
+          return <PurchaseTypeStep goal={goal} setGoal={setGoal} />
+        case 2:
+          return <CostStep cost={cost} setCost={setCost} />
+        case 3:
+          return (
+            <SalaryResultStep
+              goal={goal}
+              cost={cost}
+              calculateRequiredSalary={() => calculateRequiredSalary(goal, cost)}
+            />
+          )
+        default:
+          return null
+      }
+    } else {
+      switch (step) {
+        case 1:
+          return <IncomeStep income={income} setIncome={setIncome} />
+        case 2:
+          return <GoalStep goal={goal} setGoal={setGoal} />
+        case 3:
+          return (
+            <ResultsStep
+              income={income}
+              goal={goal}
+              affordableCars={affordableCars}
+              affordableHomes={affordableHomes}
+              isLoading={isLoading}
+            />
+          )
+        default:
+          return null
+      }
     }
   }
 
@@ -109,7 +132,12 @@ export default function WhatCanIAffordOption({ onBack, surveyType }: FinancialSu
           <Button
             className="w-1/2 py-6 text-xl bg-emerald-500 hover:bg-emerald-600"
             onClick={handleNext}
-            disabled={(step === 1 && !income) || (step === 2 && !goal)}
+            disabled={
+              (surveyType === "What salary do I need to afford this?" &&
+                ((step === 1 && !goal) || (step === 2 && !cost))) ||
+              (surveyType === "With this salary, what can I afford?" &&
+                ((step === 1 && !income) || (step === 2 && !goal)))
+            }
           >
             Next
             <span className="ml-2">›</span>

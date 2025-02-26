@@ -1,20 +1,21 @@
-interface GoalStepProps {
+
+interface PurchaseTypeStepProps {
   goal: string
   setGoal: (value: string) => void
 }
 
-export function GoalStep({ goal, setGoal }: GoalStepProps) {
+export function PurchaseTypeStep({ goal, setGoal }: PurchaseTypeStepProps) {
   const options = ["car", "house"]
 
   return (
     <>
-      <h1 className="text-2xl sm:text-3xl font-bold text-center mt-8 mb-10 font-Playfair">What do you want to afford?</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold text-center mt-8 mb-10 font-Playfair">What do you want to buy?</h1>
       <div className="space-y-3">
         {options.map((option, index) => (
           <div key={option}>
             <button
             key={index}
-              onClick={() => setGoal(option) }
+              onClick={() => setGoal(option)}
               className={`w-full p-4 text-center border rounded-lg transition-colors text-xl font-semibold
                 ${
                   goal === option
@@ -24,7 +25,7 @@ export function GoalStep({ goal, setGoal }: GoalStepProps) {
             >
               {option.charAt(0).toUpperCase() + option.slice(1)}
             </button>
-           
+            
           </div>
         ))}
       </div>

@@ -9,7 +9,7 @@ interface IncomeStepProps {
 export function IncomeStep({ income, setIncome }: IncomeStepProps) {
   return (
     <>
-      <h1 className="text-3xl font-bold text-center mt-8 mb-10 font-Playfair">How much do you make?</h1>
+      <h1 className="text-2xl sm:text-3xl font-bold text-center mt-8 mb-10 font-Playfair">How much do you make?</h1>
       <div className="space-y-4">
         <Label className="text-base sm:text-lg" htmlFor="income">
           Annual Income
