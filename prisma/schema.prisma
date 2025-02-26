@@ -1,0 +1,28 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model HomePrice {
+  regionid            String @id @default(cuid())
+  regionName              String?
+  stateName             String?
+  incomeNeeded          String?
+  averageHomePrice      Int?
+
+  @@map("HomePrice")
+}
+
+model CarPrice {
+  carId String  @id @default(cuid())
+  make    String
+  model    String
+  year    String
+  trim    String
+  price   String
+}

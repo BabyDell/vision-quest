@@ -1,0 +1,356 @@
+make	model	trim	year	price
+Ford	Mustang	GT	2025	45000
+Chevrolet	Corvette	Stingray	2025	60000
+Tesla	Model 3	Long Range	2025	50000
+BMW	3 Series	330i	2025	42000
+Audi	A4	Premium Plus	2025	45000
+Mercedes-Benz	C-Class	AMG C 43	2025	55000
+Honda	Civic	EX-L	2025	30000
+Toyota	Corolla	LE	2025	25000
+Nissan	Altima	SR	2025	28000
+Hyundai	Elantra	Limited	2025	27000
+Kia	Optima	EX	2025	29000
+Mazda	6	Grand Touring	2025	35000
+Subaru	Legacy	Limited	2025	33000
+Volkswagen	Passat	SEL	2025	38000
+Chevrolet	Malibu	Premier	2025	40000
+Ford	Fusion	Platinum	2025	42000
+Chrysler	300	Limited	2025	45000
+Dodge	Charger	RT	2025	50000
+Buick	Regal	GS	2025	48000
+Cadillac	CTS	Premium Luxury	2025	55000
+Lincoln	Continental	Reserve	2025	60000
+Acura	TLX	SH-AWD	2025	50000
+Infiniti	Q50	Red Sport 400	2025	55000
+Lexus	ES	350	2025	45000
+Genesis	G80	3.5T	2025	60000
+Volvo	S60	Inscription	2025	50000
+Jaguar	XE	SE	2025	45000
+Alfa Romeo	Giulia	Ti	2025	50000
+BMW	5 Series	540i	2025	60000
+Audi	A6	Prestige	2025	65000
+Mercedes-Benz	E-Class	E 350	2025	70000
+Honda	Accord	EX-L	2025	35000
+Toyota	Camry	XLE	2025	40000
+Nissan	Maxima	Platinum	2025	45000
+Hyundai	Sonata	Limited	2025	40000
+Kia	Stinger	GT	2025	50000
+Mazda	MX-5 Miata	Grand Touring	2025	35000
+Subaru	WRX	Premium	2025	40000
+Volkswagen	Arteon	SEL	2025	45000
+Chevrolet	Impala	Premier	2025	50000
+Ford	Mondeo	ST-Line	2025	45000
+Chrysler	Pacifica	Limited	2025	55000
+Dodge	Durango	GT	2025	50000
+Buick	Enclave	Essence	2025	55000
+Cadillac	XT5	Premium Luxury	2025	60000
+Lincoln	Nautilus	Reserve	2025	65000
+Acura	RDX	Technology	2025	50000
+Infiniti	QX50	Essential	2025	55000
+Lexus	NX	300h	2025	50000
+Genesis	GV70	2.5T	2025	60000
+Volvo	XC60	Inscription	2025	55000
+Jaguar	F-Pace	Prestige	2025	60000
+Alfa Romeo	Stelvio	Ti	2025	55000
+BMW	X5	xDrive40i	2025	65000
+Audi	Q7	Prestige	2025	70000
+Mercedes-Benz	GLE	350	2025	75000
+Honda	CR-V	EX-L	2025	35000
+Toyota	RAV4	Limited	2025	40000
+Nissan	Rogue	SL	2025	45000
+Hyundai	Tucson	Limited	2025	40000
+Kia	Sportage	EX	2025	35000
+Mazda	CX-5	Grand Touring	2025	40000
+Subaru	Forester	Limited	2025	35000
+Volkswagen	Tiguan	SEL	2025	40000
+Chevrolet	Equinox	Premier	2025	45000
+Ford	Edge	ST	2025	50000
+Chrysler	Pacifica	Hybrid Limited	2025	55000
+Dodge	Journey	GT	2025	40000
+Buick	Envision	Essence	2025	45000
+Cadillac	XT4	Premium Luxury	2025	50000
+Lincoln	Aviator	Reserve	2025	65000
+Acura	MDX	Technology	2025	55000
+Infiniti	QX60	Essential	2025	60000
+Lexus	RX	350	2025	60000
+Genesis	GV80	2.5T	2025	70000
+Volvo	XC90	Inscription	2025	75000
+Jaguar	E-Pace	Prestige	2025	55000
+				
+Toyota	Highlander	Limited	2024	47000
+Honda	CR-V	EX	2024	33000
+Chevrolet	Equinox	LT	2023	35000
+BMW	X7	xDrive40i	2023	85000
+Ford	F-150	King Ranch	2023	60000
+Nissan	Armada	Platinum	2023	75000
+Tesla	Model S	Long Range	2023	90000
+Mazda	CX-9	Signature	2023	50000
+Hyundai	Palisade	Calligraphy	2023	55000
+Audi	Q5	Premium Plus	2023	52000
+Lexus	LS	500	2023	75000
+Kia	Sorento	EX Hybrid	2023	45000
+Subaru	Outback	Onyx Edition XT	2023	40000
+Volkswagen	ID.4	Pro	2023	45000
+Chevrolet	Blazer	RS	2023	50000
+Ford	Mustang Mach-E	GT	2023	55000
+Cadillac	Escalade	Platinum	2023	90000
+Toyota	Land Cruiser	Heritage Edition	2022	90000
+BMW	4 Series	440i	2022	60000
+Mercedes-Benz	GLS	450	2022	85000
+Audi	A5	Premium	2022	50000
+Nissan	Titan	Pro-4X	2022	60000
+Ram	1500	Limited	2022	65000
+Chevrolet	Silverado 1500	High Country	2022	65000
+GMC	Sierra 1500	Denali	2022	70000
+Honda	Passport	Elite	2022	50000
+Hyundai	Santa Fe	Calligraphy	2022	47000
+Ford	Ranger	Lariat	2022	40000
+Toyota	Tacoma	TRD Pro	2022	45000
+Tesla	Model Y	Performance	2022	55000
+Kia	Telluride	EX	2022	50000
+Volkswagen	Atlas	SEL Premium	2022	55000
+Jaguar	F-Type	Base	2022	65000
+Land Rover	Discovery	SE	2022	60000
+Lexus	GX 460	Premium	2022	60000
+Acura	MDX	A-Spec	2022	57000
+Chrysler	Pacifica	Hybrid	2022	50000
+Cadillac	CT5	Premium Luxury	2022	50000
+Buick	Encore GX	Essence	2022	38000
+Ram	2500	Power Wagon	2022	65000
+Ford	EcoSport	Titanium	2022	30000
+Chevrolet	Trailblazer	RS	2022	35000
+Mazda	CX-30	Preferred	2022	28000
+BMW	X5	xDrive45e	2022	75000
+Tesla	Model X	Long Range	2021	110000
+Honda	Insight	EX	2021	25000
+Toyota	Prius	LE	2021	27000
+Subaru	Impreza	Premium	2021	22000
+Ford	F-150	Raptor	2021	70000
+Chevrolet	Colorado	ZR2	2021	45000
+Hyundai	Kona	Night	2021	30000
+Kia	Niro	EV	2021	40000
+Toyota	Yaris	LE	2022	20000
+Honda	Fit	EX	2022	22000
+Chevrolet	Trax	LS	2022	23000
+Ford	Fusion	S	2021	18000
+Nissan	Versa	S	2021	16000
+Hyundai	Kona	SE	2021	24000
+Kia	Rio	S	2021	18000
+Mazda	CX-3	Sport	2021	24000
+Subaru	Impreza	Base	2021	20000
+Volkswagen	Golf	SE	2021	28000
+Chevrolet	Sonic	LT	2020	15000
+Honda	Civic	Sport	2020	23000
+Toyota	Corolla	SE	2020	22000
+Nissan	Sentra	SV	2020	20000
+Hyundai	Elantra	SEL	2020	22000
+Kia	Soul	X-Line	2020	26000
+Mazda	3	Preferred	2020	25000
+Ford	Escape	SE	2020	28000
+Chevrolet	Equinox	LT	2020	30000
+Subaru	Forester	Premium	2020	32000
+Volkswagen	Jetta	SEL	2020	28000
+Ford	Fiesta	ST	2019	18000
+Toyota	Yaris	iA	2019	16000
+Honda	CR-V	EX	2019	30000
+Chevrolet	Malibu	LT	2019	26000
+Hyundai	Tucson	SE	2019	23000
+Kia	Niro	Hybrid	2019	27000
+Mazda	CX-5	Sport	2019	27000
+Subaru	Outback	Base	2019	25000
+Volkswagen	Passat	SE	2019	26000
+Chevrolet	Blazer	2LT	2019	35000
+Ford	Edge	SEL	2019	33000
+Honda	Passport	Sport	2019	37000
+Nissan	Rogue	SL	2019	35000
+Toyota	RAV4	XLE	2019	31000
+Mazda	MX-5 Miata	Club	2018	30000
+Subaru	Baja	Turbo	2007	9000
+Chevrolet	Spark	LS	2018	14000
+Ford	Focus	SE	2018	15000
+Kia	Optima	EX	2018	20000
+Hyundai	Santa Fe	SE	2018	23000
+Toyota	Highlander	LE	2018	28000
+Honda	Accord	EX-L	2018	28000
+Chevrolet	Traverse	LT	2018	32000
+Ford	Explorer	XLT	2018	32000
+Subaru	Ascent	Premium	2018	40000
+Jeep	Grand Cherokee	Laredo	2017	25000
+Toyota	4Runner	SR5	2017	32000
+Ford	Mustang	GT	2017	35000
+Honda	Pilot	EX-L	2017	32000
+Chevrolet	Silverado 1500	WT	2017	35000
+Mazda	CX-9	Signature	2017	40000
+Kia	Sorento	EX	2017	30000
+Hyundai	Sonata	SE	2017	18000
+Nissan	Altima	2.5 SL	2017	22000
+Tesla	Model S	Plaid	2023	120000
+Mercedes-Benz	S-Class	S 580	2023	130000
+BMW	7 Series	740i	2023	85000
+Audi	A8	3.0T	2023	90000
+Porsche	911	Turbo S	2023	175000
+Chevrolet	Corvette	Z06	2023	120000
+Ford	Mustang GTD	GT3	2023	300000
+Cadillac	Escalade	Platinum	2023	110000
+Land Rover	Range Rover	Autobiography	2023	130000
+Lexus	LX 600	Premium	2023	95000
+Maserati	Levante	Trofeo	2023	120000
+Jaguar	F-Type	SVR	2023	125000
+BMW	X6	M	2023	110000
+Mercedes-Benz	G-Class	G 550	2023	160000
+Bentley	Continental GT	Speed	2023	250000
+				
+Aston Martin	Vantage	AMR	2023	150000
+				
+Lamborghini	Huracan	Spyder	2023	220000
+Porsche	Panamera	Turbo S	2023	160000
+Audi	R8	V10	2023	180000
+McLaren	720S	Spider	2023	310000
+BMW	8 Series	M850i	2023	95000
+Mercedes-Benz	Maybach	600	2023	180000
+Porsche	Cayenne	Turbo	2023	130000
+Tesla	Model X	Platinum	2023	135000
+Chevrolet	Silverado 2500HD	High Country	2023	75000
+Ford	F-250	Lariat	2023	80000
+Ram	1500	TRX	2023	90000
+Maserati	Quattroporte	S Q4	2023	105000
+Jaguar	XF	Portfolio	2023	75000
+Bentley	Bentayga	V8	2023	180000
+Range Rover	Velar	R-Dynamic HSE	2023	80000
+Lincoln	Nautilus	Reserve	2023	70000
+Genesis	GV80	3.5T	2023	75000
+Audi	Q8	Prestige	2023	75000
+Volvo	XC90	T8 Inscription	2023	85000
+Mercedes-Benz	AMG GT	53	2023	130000
+Alfa Romeo	Stelvio	Quadrifoglio	2023	85000
+BMW	5 Series	M5	2023	110000
+Audi	S7	Prestige	2023	85000
+Jaguar	IPace	EV400	2023	70000
+Porsche	Taycan	Turbo	2023	150000
+Ferrari	Portofino	M	2023	230000
+				
+Bentley	Flying Spur	V8	2023	200000
+				
+Maserati	Ghibli	S Q4	2023	75000
+Chevrolet	Blazer	RS	2023	60000
+GMC	Sierra 1500	Denali Ultimate	2023	80000
+Ram	2500	Laramie	2023	70000
+				
+Mercedes-Benz	GLS	580	2023	120000
+Lexus	LC 500	Convertible	2023	115000
+Tesla	Model Y	Performance	2023	70000
+Jaguar	F-Pace	SVR	2023	90000
+BMW	3 Series	M3	2023	75000
+Ford	F-150	King Ranch	2022	60000
+Lexus	IS	500 F SPORT	2022	55000
+BMW	X5	M	2022	105000
+Porsche	911	Turbo S	2023	205000
+				
+Lamborghini	Huracan	Performante	2023	320000
+McLaren	720S	Spider	2023	340000
+				
+				
+Bentley	Continental GT	Speed	2023	250000
+Maserati	MC20	Super Sports	2023	350000
+Porsche	911	GT3	2023	180000
+Lamborghini	Aventador	S	2023	400000
+Ferrari	Portofino	M	2023	240000
+				
+				
+				
+Bentley	Bentayga	Speed	2023	230000
+				
+Aston Martin	DBX	707	2023	200000
+Tesla	Model S	Platinum	2023	175000
+BMW	i8	Spyder	2022	160000
+Mercedes-Benz	Maybach	S-Class	2022	200000
+Audi	R8	Performance	2022	160000
+				
+Lamborghini	Sian	FKP 37.00	2022	500000
+				
+Porsche	Cayman	GT4 RS	2022	150000
+				
+				
+Maserati	Quattroporte	GTS	2022	150000
+Bentley	Flying Spur	Hybrid	2022	225000
+Lamborghini	Diablo	SV	2022	450000
+				
+BMW	8 Series	Alpina B8	2022	140000
+Tesla	Model X	Platinum	2022	170000
+				
+Porsche	Panamera	Turbo SE Hybrid	2022	180000
+				
+Aston Martin	DB11	AMR	2022	200000
+				
+Lamborghini	Countach	LPI 800-4	2022	400000
+				
+				
+				
+Jaguar	F-Type	R	2022	175000
+				
+				
+				
+				
+				
+Aston Martin	Vantage	AMR	2021	150000
+				
+Bentley	Bentayga	V8	2021	200000
+				
+Porsche	911	Targa 4S	2021	150000
+McLaren	570S	Spider	2021	180000
+Jaguar	XK	Special Edition	2021	160000
+Maserati	Levante	GranLusso	2021	160000
+				
+Bugatti	Chiron Pur Sport	2021	3	500000
+				
+Porsche	Panamera	Turbo S E-Hybrid	2021	180000
+				
+Honda	Civic	DX	2015	8000
+Toyota	Corolla	S	2014	9000
+Ford	Fusion	SE	2014	7000
+Chevrolet	Sonic	LS	2015	6000
+Nissan	Versa	SV	2014	6000
+Hyundai	Elantra	GLS	2013	7000
+Mazda	3	i Touring	2014	8000
+Kia	Rio	EX	2015	9000
+Toyota	Yaris	LE	2015	8000
+Chevrolet	Malibu	LT	2014	9000
+Ford	Focus	SE	2014	7000
+Subaru	Impreza	Premium	2015	9000
+Nissan	Altima	2.5	2013	7000
+Honda	Fit	EX	2014	8000
+Hyundai	Santa Fe	GL	2013	9000
+Chevrolet	Equinox	LS	2013	9000
+Mazda	CX-5	Sport	2013	9000
+Ford	Escape	SE	2013	9000
+Toyota	Matrix	S	2013	7000
+Kia	Soul	Base	2014	8000
+Subaru	Legacy	Premium	2013	9000
+Nissan	Juke	S	2013	8000
+Jeep	Compass	Latitude	2014	9000
+Honda	Accord	EX	2013	9000
+Chevrolet	Traverse	LS	2013	9000
+Ford	Edge	SEL	2013	8000
+Mazda	6	Grand Touring	2014	9000
+Hyundai	Tucson	GLS	2013	8000
+Volkswagen	Jetta	SE	2014	7000
+Chevrolet	Trax	LS	2015	9000
+Toyota	Highlander	Base	2010	9000
+Honda	CR-V	EX	2012	9000
+Nissan	Rogue	SV	2012	8000
+Ford	Escape	XLT	2012	8000
+Mazda	CX-7	Grand Touring	2012	9000
+Kia	Sorento	EX	2012	9000
+Chrysler	300	Base	2012	8000
+Hyundai	Sonata	GLS	2012	8000
+Chevrolet	Impala	LT	2011	7000
+Dodge	Charger	SE	2011	9000
+BMW	3 Series	328i	2011	9000
+Audi	A4	2.0T	2011	9000
+Toyota	RAV4	Base	2011	8000
+Ford	Fusion	SEL	2011	8000
+Chevrolet	Suburban	LT	2010	9000
+Honda	Pilot	EX	2010	9000
+Toyota	Sequoia	SR5	2010	9000
+GMC	Yukon	SLT	2010	9000
+Ford	Expedition	XLT	2010	9000
