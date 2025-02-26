@@ -109,7 +109,7 @@ export default function WhatCanIAffordOption({ onBack, surveyType }: FinancialSu
   }
 
   return (
-    <div className="max-w-2xl mx-auto p-6 space-y-8">
+    <div className="max-w-2xl mx-auto py-6 sm:px-6 px-4 space-y-8">
       <Progress value={(step / totalSteps) * 100} className="h-2.5 bg-gray-100" />
 
       <AnimatePresence mode="wait" initial={false}>

@@ -34,7 +34,7 @@ export default function CreditCardSurvey() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: direction * 20 }}
           transition={{ duration: 0.3 }}
-          className="max-w-2xl mx-auto p-6 space-y-8"
+          className="max-w-2xl mx-auto  py-6 sm:px-6 px-4 space-y-8"
         >
           <Progress value={0} className="h-2.5 bg-gray-100" />
 

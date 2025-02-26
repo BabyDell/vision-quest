@@ -29,8 +29,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NavBar />
-        <div className="mt-14 mx-4 mb-10">
-          <div className="max-w-5xl mx-auto px-4 bg-white min-h-96 rounded-lg shadow-xl border-neutral-300 border">
+        <div className="mt-14 mx-1.5 sm:mx-4 mb-10">
+          <div className="max-w-5xl mx-auto  bg-white min-h-96 rounded-lg shadow-xl border-neutral-300 border">
             {children}
           </div>
         </div>
